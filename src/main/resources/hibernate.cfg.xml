@@ -17,8 +17,9 @@
         <property name="hibernate.format_sql">true</property>
 
 
-<!--        <mapping class="task6.Data"/>-->
-<!--        <mapping class="task6.Rgb"/>-->
         <mapping class="roman.models.User" />
+        <mapping class="roman.models.Folder" />
+            <mapping class="roman.models.File" />
+            <mapping class="roman.models.Content" />
     </session-factory>
 </hibernate-configuration>
