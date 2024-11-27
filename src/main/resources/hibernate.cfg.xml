@@ -4,8 +4,8 @@
         "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <!-- Database connection properties - Driver, URL, user, password -->
-        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+<!--         Database connection properties - Driver, URL, user, password -->
+<!--        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>-->
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3307/PlitosDocs</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">strong</property>
@@ -19,5 +19,6 @@
 
 <!--        <mapping class="task6.Data"/>-->
 <!--        <mapping class="task6.Rgb"/>-->
+        <mapping class="roman.models.User" />
     </session-factory>
 </hibernate-configuration>
