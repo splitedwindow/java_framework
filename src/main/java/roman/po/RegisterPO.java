@@ -33,10 +33,9 @@ public class RegisterPO {
     }
 
     public RegisterPO enterUsername(String username) {
-        WebElement usernameInput = DriverProvider.getWait()
+        DriverProvider.getWait()
                 .until(ExpectedConditions.visibilityOf(usernameElement));
-        usernameInput.clear();
-        usernameInput.sendKeys(username);
+        usernameElement.sendKeys(username);
         return this;
     }
 
@@ -46,18 +45,15 @@ public class RegisterPO {
         return this;
     }
 
-    public void submit() {
-        WebElement submitButton = DriverProvider.getWait()
+    public RegisterPO submit() {
+        DriverProvider.getWait()
                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//form//button[@type='submit']")));
         submitBtn.findElement(By.xpath("/html/body/div/main/form/button")).click();
+
+        return this;
     }
 
-    public void performRegister(String username, String password) {
-        openRegisterPage();
-        enterUsername(username);
-        enterPassword(password);
-        submit();
-    }
+
 }
 
 

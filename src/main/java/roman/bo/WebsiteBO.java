@@ -5,7 +5,7 @@ import roman.po.RegisterPO;
 public class WebsiteBO {
     LoginPO loginPage = new LoginPO();
     RegisterPO registerPage = new RegisterPO();
-    public WebsiteBO LoginUser(String username, String password) {
+    public WebsiteBO loginUser(String username, String password) {
         loginPage
                 .openLoginPage()
                 .enterUsername(username)
@@ -15,7 +15,7 @@ public class WebsiteBO {
         return this;
     }
 
-    public WebsiteBO RegisterUser(String username, String password) {
+    public WebsiteBO registerUser(String username, String password) {
         registerPage
                 .openRegisterPage()
                 .enterUsername(username)

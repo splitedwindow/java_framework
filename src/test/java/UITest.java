@@ -14,17 +14,24 @@ public class UITest {
 
         WebsiteBO websiteBO = new WebsiteBO();
         websiteBO
-                .RegisterUser(randomCredentials, randomCredentials)
-                .LoginUser(randomCredentials, randomCredentials);
+                .registerUser(randomCredentials, randomCredentials)
+                .loginUser(randomCredentials, randomCredentials);
+
+
     }
 
     @Test
     public void chromeTest() {
         BrowserFactory.initBrowser("chrome");
 
+        Faker faker = new Faker();
+        String randomCredentials = faker.lorem().word();
+        System.out.println("RANDOM CREDENTIAL: " + randomCredentials);
 
         WebsiteBO websiteBO = new WebsiteBO();
-        websiteBO.LoginUser("test", "test");
+        websiteBO
+                .registerUser(randomCredentials, randomCredentials)
+                .loginUser(randomCredentials, randomCredentials);
     }
 
 }
