@@ -30,7 +30,7 @@ public class Content {
 
     // Enum to define content types
     public enum ContentType {
-        TEXT, IMAGE
+        text, image
     }
 
     // Getters and Setters
