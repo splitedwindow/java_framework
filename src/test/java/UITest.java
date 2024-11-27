@@ -1,13 +1,19 @@
 import com.github.javafaker.Faker;
 import org.hibernate.Session;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import roman.BrowserFactory;
 import roman.bo.WebsiteBO;
 import roman.models.User;
+import roman.utils.AllureUtils;
 import roman.utils.HibernateConnector;
 
+import static roman.DriverProvider.getDriver;
+
+@Listeners({TestListener.class})
 public class UITest {
+
     @Test
     public void firefoxRegisterLoginTest() {
         BrowserFactory.initBrowser("firefox");
@@ -130,5 +136,8 @@ public class UITest {
         session.getTransaction().commit();
 
         session.close();
+
+        AllureUtils.attachScreenshot(getDriver());
+        AllureUtils.attachHtml(getDriver());
     }
 }
