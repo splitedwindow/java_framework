@@ -22,6 +22,21 @@ public class UITest {
                 .loginUser(randomCredentials, randomCredentials);
 
         Assert.assertTrue(websiteBO.isLoginSuccessful(), "Dashboard is not visible; login failed.");
+
+        // test in db
+        Session session = HibernateConnector.getSessionFactory().openSession();
+        session.beginTransaction();
+
+        String emailToFind = randomCredentials;
+        User user = session.createQuery("FROM User WHERE email = :email", User.class)
+                .setParameter("email", emailToFind)
+                .uniqueResult();
+
+        Assert.assertEquals(emailToFind, user.getEmail(), "emails don't match");
+
+        session.getTransaction().commit();
+
+        session.close();
     }
 
     @Test
@@ -51,7 +66,17 @@ public class UITest {
         Assert.assertTrue(websiteBO.isLoginSuccessful(), "Dashboard is not visible; login failed.");
 
         // validate via hibernate
-//        Session session = HibernateConnector.getSessionFactory().openSession();
+        Session session = HibernateConnector.getSessionFactory().openSession();
+
+        String emailToFind = "test";
+        User user = session.createQuery("FROM User WHERE email = :email", User.class)
+                .setParameter("email", emailToFind)
+                .uniqueResult();
+
+        Assert.assertEquals("test", user.getEmail(), "emails don't match");
+//        session.getTransaction().commit();
+
+        session.close();
     }
 
     @Test
@@ -82,9 +107,28 @@ public class UITest {
     public void registerTest() {
         BrowserFactory.initBrowser("firefox");
 
+        Faker faker = new Faker();
+        String randomCredentials = faker.lorem().word();
+        System.out.println("RANDOM CREDENTIAL: " + randomCredentials);
+
         WebsiteBO websiteBO = new WebsiteBO();
-        websiteBO.loginUser("test", "test");
+        websiteBO.registerUser(randomCredentials, randomCredentials);
 
         Assert.assertTrue(websiteBO.isRegisterSuccessful(), "Dashboard is not visible; login failed.");
+
+        // test in db
+        Session session = HibernateConnector.getSessionFactory().openSession();
+        session.beginTransaction();
+
+        String emailToFind = randomCredentials;
+        User user = session.createQuery("FROM User WHERE email = :email", User.class)
+                .setParameter("email", emailToFind)
+                .uniqueResult();
+
+        Assert.assertEquals(emailToFind, user.getEmail(), "emails don't match");
+
+        session.getTransaction().commit();
+
+        session.close();
     }
 }
