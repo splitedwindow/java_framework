@@ -1,7 +1,6 @@
 package roman.po;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -49,6 +48,16 @@ public class LoginPO {
         submitBtn.click();
 
         return this;
+    }
+
+    public boolean isDashboardVisible() {
+        try {
+            // Wait until the element is visible
+            DriverProvider.getWait().until(ExpectedConditions.visibilityOfElementLocated(By.id("title")));
+            return true;
+        } catch (NoSuchElementException | TimeoutException e) {
+            return false;
+        }
     }
 
 }

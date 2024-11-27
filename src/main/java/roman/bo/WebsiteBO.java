@@ -25,5 +25,13 @@ public class WebsiteBO {
         return this;
     }
 
+    public boolean isLoginSuccessful() {
+        return loginPage.isDashboardVisible();
+    }
+
+    public boolean isRegisterSuccessful() {
+        return registerPage.isDashboardVisible();
+    }
+
 
 }
