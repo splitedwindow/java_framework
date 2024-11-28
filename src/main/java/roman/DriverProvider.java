@@ -28,7 +28,7 @@ public class DriverProvider {
         isDriverInitialized();
 
         if (wait == null) {
-            wait = new WebDriverWait(driver.get(), Duration.ofSeconds(3));
+            wait = new WebDriverWait(driver.get(), Duration.ofSeconds(10));
         }
         return wait;
     }

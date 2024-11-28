@@ -2,15 +2,17 @@ import com.github.javafaker.Faker;
 import io.restassured.http.ContentType;
 import org.hibernate.Session;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import roman.models.Content;
+import roman.models.File;
 import roman.models.Folder;
 import roman.models.User;
-import roman.models.File;
-import roman.models.Content;
 import roman.utils.HibernateConnector;
 
 import static io.restassured.RestAssured.given;
 
+@Listeners({TestListener.class})
 public class ApiTest {
     @Test
     public void apiTest() {

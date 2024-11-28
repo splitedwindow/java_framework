@@ -1,8 +1,7 @@
 import com.github.javafaker.Faker;
 import org.hibernate.Session;
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import roman.BrowserFactory;
 import roman.bo.WebsiteBO;
 import roman.models.User;
@@ -13,6 +12,22 @@ import static roman.DriverProvider.getDriver;
 
 @Listeners({TestListener.class})
 public class UITest {
+    @DataProvider
+    public Object[][] testCredentialsProvider() {
+        return new Object[][] {
+                {"test", "test"}
+        };
+    }
+
+    @DataProvider
+    public Object[][] userRandomCredentialsProvider() {
+        Faker faker = new Faker();
+        String randomCredentials = faker.lorem().word();
+        return new Object[][] {
+                {randomCredentials, randomCredentials}
+        };
+    }
+
 
     @Test
     public void firefoxRegisterLoginTest() {
@@ -62,12 +77,13 @@ public class UITest {
         Assert.assertTrue(websiteBO.isLoginSuccessful(), "Dashboard is not visible; login failed.");
     }
 
-    @Test
-    public void firefoxLoginTest() {
+    @Parameters({"username", "password"})
+    @Test(dataProvider = "testCredentialsProvider")
+    public void firefoxLoginTest(String username, String password) {
         BrowserFactory.initBrowser("firefox");
 
         WebsiteBO websiteBO = new WebsiteBO();
-        websiteBO.loginUser("test", "test");
+        websiteBO.loginUser(username, password);
 
         Assert.assertTrue(websiteBO.isLoginSuccessful(), "Dashboard is not visible; login failed.");
 
@@ -80,7 +96,6 @@ public class UITest {
                 .uniqueResult();
 
         Assert.assertEquals("test", user.getEmail(), "emails don't match");
-//        session.getTransaction().commit();
 
         session.close();
     }
@@ -108,17 +123,13 @@ public class UITest {
     }
 
 
-
-    @Test
-    public void registerTest() {
+    @Parameters({"username", "password"})
+    @Test(dataProvider="userRandomCredentialsProvider")
+    public void registerTest(String username, String password) {
         BrowserFactory.initBrowser("firefox");
 
-        Faker faker = new Faker();
-        String randomCredentials = faker.lorem().word();
-        System.out.println("RANDOM CREDENTIAL: " + randomCredentials);
-
         WebsiteBO websiteBO = new WebsiteBO();
-        websiteBO.registerUser(randomCredentials, randomCredentials);
+        websiteBO.registerUser(username, password);
 
         Assert.assertTrue(websiteBO.isRegisterSuccessful(), "Dashboard is not visible; login failed.");
 
@@ -126,7 +137,7 @@ public class UITest {
         Session session = HibernateConnector.getSessionFactory().openSession();
         session.beginTransaction();
 
-        String emailToFind = randomCredentials;
+        String emailToFind = username;
         User user = session.createQuery("FROM User WHERE email = :email", User.class)
                 .setParameter("email", emailToFind)
                 .uniqueResult();
@@ -140,4 +151,16 @@ public class UITest {
         AllureUtils.attachScreenshot(getDriver());
         AllureUtils.attachHtml(getDriver());
     }
+
+
+    @BeforeSuite
+    public void initDriver() {
+        System.out.println("Initializing driver...");
+        BrowserFactory.initBrowser("chrome");
+    }
+
+//    @AfterSuite
+//    public void closeDriver() {
+//        DriverProvider.getDriver().quit();
+//    }
 }

@@ -1,0 +1,384 @@
+2024-11-28 02:13:56 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 02:13:58 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 02:13:58 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 02:13:59 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 02:13:59 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 02:13:59 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 02:13:59 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 02:13:59 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 02:13:59 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 02:13:59 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 02:13:59 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 02:13:59 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 02:13:59 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 02:13:59 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@9ba905b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 02:14:00 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 02:14:00 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 02:14:01 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 02:14:01 INFO  TestListener - Test Started: registerTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: registerTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 02:14:02 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 02:17:33 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 02:17:35 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 02:17:35 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 02:17:36 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 02:17:36 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 02:17:36 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 02:17:36 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 02:17:36 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 02:17:36 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 02:17:36 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 02:17:36 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 02:17:36 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 02:17:36 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 02:17:37 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37601089] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 02:17:37 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 02:17:37 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 02:17:38 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 02:17:38 INFO  TestListener - Test Started: registerTest 
+2024-11-28 02:17:39 INFO  TestListener - Test Started: registerTest 
+2024-11-28 02:17:39 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 02:17:39 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 02:17:39 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:17:39 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:17:39 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 02:17:40 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 02:17:40 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 02:17:40 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 02:17:40 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 02:17:40 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 02:20:35 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 02:20:37 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:37 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 02:20:37 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:37 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 02:20:38 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 02:20:38 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 02:20:38 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 02:20:38 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 02:20:38 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 02:20:38 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 02:20:38 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 02:20:38 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 02:20:38 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 02:20:38 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 02:20:38 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f337f10] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 02:20:38 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:39 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 02:20:39 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:39 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 02:20:39 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:40 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 02:20:40 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:40 INFO  TestListener - Test Started: registerTest 
+2024-11-28 02:20:40 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: registerTest 
+2024-11-28 02:20:41 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 02:20:41 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 02:20:41 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:20:41 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:20:41 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 02:20:41 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 02:20:41 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 02:20:41 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:41 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 02:20:42 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:42 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 02:20:42 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:20:42 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 02:20:42 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:32:57 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:32:57 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:32:57 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:32:57 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:35:11 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:35:11 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 02:35:11 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:35:11 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 02:35:11 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:44:02 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:44:02 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 02:44:02 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:44:02 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 02:44:02 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:47:30 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:47:30 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:47:30 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:47:30 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:48:07 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:48:08 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:48:08 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:48:08 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:48:45 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:48:46 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:48:46 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:48:46 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:50:47 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 02:50:47 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 02:50:47 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 02:50:47 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 02:50:47 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 02:50:47 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 02:50:47 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 02:50:47 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 02:50:47 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 02:50:47 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 02:50:48 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@30694e0e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 02:54:12 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:54:12 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:54:12 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:54:12 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:59:04 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:59:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:59:05 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:59:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:59:35 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:59:35 ERROR TestListener - makeDOMAttachment
+2024-11-28 02:59:35 INFO  TestListener - Test Started: apiTest 
+2024-11-28 02:59:35 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:01:12 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:01:12 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:01:12 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:01:12 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:01:33 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:01:33 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:01:33 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:01:33 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:52 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:52 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:04:52 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:52 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:04:52 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:52 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 03:04:52 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 03:04:52 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 03:04:52 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 03:04:52 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 03:04:52 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 03:04:52 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 03:04:52 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 03:04:52 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 03:04:53 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 03:04:53 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 03:04:53 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7d12e459] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 03:04:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:53 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 03:04:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:53 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 03:04:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:54 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 03:04:54 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:54 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 03:04:54 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:54 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 03:04:54 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:04:54 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:05:59 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:05:59 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:06:00 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:00 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:06:00 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:00 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:06:01 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 03:06:01 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 03:06:01 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 03:06:01 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 03:06:01 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 03:06:01 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 03:06:01 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 03:06:01 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 03:06:01 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 03:06:01 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 03:06:02 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4ca87783] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 03:06:02 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:02 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:06:02 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:02 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:06:03 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:03 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:06:03 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:03 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:06:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:04 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:06:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:04 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:06:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:04 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:06:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:46 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:46 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:06:47 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:47 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:06:47 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:47 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:06:48 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 03:06:48 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 03:06:48 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 03:06:48 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 03:06:48 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 03:06:48 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 03:06:48 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 03:06:48 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 03:06:48 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 03:06:48 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 03:06:49 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@317032b5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 03:06:49 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:49 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:06:49 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:49 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:06:50 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:50 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:06:50 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:50 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:06:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:53 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:06:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:53 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:06:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:06:53 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:06:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:01 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:01 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:08:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:04 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:08:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:04 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:08:08 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:08 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:08:08 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:08 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:08:11 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:11 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:08:11 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:11 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:08:15 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:15 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:08:15 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:15 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:08:15 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 03:08:15 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 03:08:15 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 03:08:15 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 03:08:15 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 03:08:15 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 03:08:15 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 03:08:15 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 03:08:15 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 03:08:15 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 03:08:15 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ce69518] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 03:08:16 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:08:16 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:08:16 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:47 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:47 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:09:50 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:50 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:09:50 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:50 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:09:51 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 03:09:51 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 03:09:51 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 03:09:51 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 03:09:51 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 03:09:51 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 03:09:51 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 03:09:51 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 03:09:51 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 03:09:51 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 03:09:52 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@76c6a458] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 03:09:52 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:52 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:09:52 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:52 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:09:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:53 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:09:53 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:53 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:09:54 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:54 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:09:54 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:54 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:09:54 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:54 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:09:54 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:54 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:09:55 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:55 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:09:55 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:55 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 03:09:55 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:55 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 03:09:55 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:55 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 03:09:55 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:55 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 03:09:55 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:55 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 03:09:55 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:09:55 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 03:09:55 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:10:59 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:10:59 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:11:00 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:01 INFO  TestListener - Test Started: chromeRegisterLoginTest 
+2024-11-28 03:11:01 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:01 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:11:01 INFO  Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-11-28 03:11:01 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-28 03:11:01 WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-11-28 03:11:01 INFO  pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2024-11-28 03:11:01 INFO  pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3307/PlitosDocs]
+2024-11-28 03:11:01 INFO  pooling - HHH10001001: Connection properties: {password=****, user=root}
+2024-11-28 03:11:01 INFO  pooling - HHH10001003: Autocommit mode: false
+2024-11-28 03:11:01 INFO  pooling - HHH10001115: Connection pool size: 10 (min=1)
+2024-11-28 03:11:02 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-28 03:11:02 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-28 03:11:02 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d301f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-11-28 03:11:02 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:02 INFO  TestListener - Test Started: firefoxLoginTest 
+2024-11-28 03:11:02 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:02 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:11:03 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:03 INFO  TestListener - Test Started: firefoxRegisterLoginTest 
+2024-11-28 03:11:03 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:03 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:11:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:04 INFO  TestListener - Test Started: registerTest 
+2024-11-28 03:11:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:04 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:11:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:04 INFO  TestListener - Test Started: testDbConnectionTest 
+2024-11-28 03:11:04 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:04 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:11:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:05 INFO  TestListener - Test Started: apiTest 
+2024-11-28 03:11:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:05 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 03:11:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:05 INFO  TestListener - Test Started: createFileWithContent 
+2024-11-28 03:11:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:05 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 03:11:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:05 INFO  TestListener - Test Started: createFolderTest 
+2024-11-28 03:11:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:05 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 03:11:05 ERROR TestListener - makeDOMAttachment
+2024-11-28 03:11:05 INFO  TestListener - Test Started: createUserAndVerifyInDatabaseTest 
+2024-11-28 03:11:05 ERROR TestListener - makeDOMAttachment
